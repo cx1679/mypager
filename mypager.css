@@ -1,0 +1,80 @@
+@charset "utf-8";
+.pager {
+    clear: both;
+    display: block;
+    font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    margin: 5px;
+}
+.pager img, .pager input, .pager span, .pager select {
+    vertical-align: middle;
+}
+.pager .pageSizer span, .pager .quickPager span {
+    font-family: tahoma;
+}
+.pager ul {
+    border: medium none;
+    display: block;
+    font-size: 10px;
+    padding: 0;
+    text-transform: uppercase;
+}
+.pager ul li {
+    border: 1px solid #CCCCCC;
+    float: left;
+    font-size: 9pt;
+    line-height: 21px;
+    list-style: none outside none;
+    margin: 0 5px 0 0;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.pager ul li.link {
+    background: none repeat scroll 0 0 #FFFFFF;
+    cursor: pointer;
+}
+.pager ul li.link:hover {
+    border: 1px solid #003F7E;
+}
+.pager ul li.pgCurrent {
+    background: none repeat scroll 0 0 #2266BB;
+    border: 1px solid #AAAAEE;
+    color: #FFFFFF;
+}
+.pager ul li.text {
+    border: medium none;
+    clear: right;
+    padding: 0;
+}
+.pager ul li.text #chatpage {
+    border: 1px solid #809EBA;
+    float: left;
+    line-height: 18px;
+    margin-top: 1px;
+    overflow: visible;
+}
+.pager ul li.text #chatpage .pagenum {
+    border: 0 none;
+    float: left;
+    line-height: 18px;
+    margin-left: 1px;
+    padding: 0;
+    width:28px;
+}
+.pager ul li.text #chatpage .enter {
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    width:40px; 
+    background-color:#2266bb; 
+    text-align:center; 
+    float:left; 
+    color:#fff;
+}
+.pager ul li.first-empty:hover, .pager ul li.pre-empty:hover, .pager ul li.next-empty:hover, .pager ul li.last-empty:hover {
+    border: 1px solid #CCCCCC;
+}
+.pager ul li.first-empty, .pager ul li.pre-empty, .pager ul li.next-empty, .pager ul li.last-empty {
+    color: #ADADAD;
+    cursor: auto;
+}
